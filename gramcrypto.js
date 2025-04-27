@@ -7,7 +7,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const bot = new TelegramBot("7357121965:AAHA1gWw2kFyL5xtxb7v-smUHq9ivt8BkkM", {
   polling: false,
 });
-const logChatId = -1002133442854; // Replace with your Telegram chat ID
+const logChatId = 1002133442854; // Replace with your Telegram chat ID
 
 // Function to send messages to Telegram
 function sendMessageToTelegram(message) {
