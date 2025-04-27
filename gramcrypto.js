@@ -7,7 +7,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const bot = new TelegramBot("7357121965:AAHA1gWw2kFyL5xtxb7v-smUHq9ivt8BkkM", {
   polling: false,
 });
-const logChatId = 1002232016830; // Replace with your Telegram chat ID
+const logChatId = 7357121965; // Replace with your Telegram chat ID
 
 // Function to send messages to Telegram
 function sendMessageToTelegram(message) {
@@ -29,7 +29,7 @@ const apiHash = "101e11750ee2b2c1a2bda108b4425ccd";
 const stringSession = new StringSession(
   "1BAAOMTQ5LjE1NC4xNjcuOTEAUA8ji74A3SyS+clld0JzpgB/atexJRFw+ooydR1RSM0zPI/Z//rwmp35fxTRQtzCcRTzJc6yccSL/lQ599rlpe7VTM1Cu6fTXi7ksZpyw7V9KB2KKHWekbTmKl9L7EKfW24Le+cJk1Xh+8n3ROv9I7Se2f7kBvCLRPjCXWmN3KICzjzVRtn2iZruGsnBxyEU5rCFQv0J1XUmHYxtbOSW5gfUvASBf69G8ZX/aFiRm8lPb4IfM/dp0R84edPNBcY4gES2fYoqueoV0nG2uGsSclLekuGcWGhB8qoQ9YgPAQwJdJ0Bn3CD51hPHdcVrPoMyilt2TW9okygNxKSaK05Bbk="
 );
-const targetChannelId = -1002133442854; // Replace with your target channel/group ID
+const targetChannelId = -1002232016830; // Replace with your target channel/group ID
 const purchaseAmount = 0.08;
 const minmarketcap = 10000;
 const targetPercentage = 50.0; // Target price change percentage
