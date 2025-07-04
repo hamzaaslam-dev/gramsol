@@ -24,10 +24,10 @@ const {
 const bs58 = require("bs58");
 
 const timedelay = 5;
-const apiId = 18842884;
-const apiHash = "101e11750ee2b2c1a2bda108b4425ccd";
+const apiId = ;
+const apiHash = "";
 const stringSession = new StringSession(
-  "1BAAOMTQ5LjE1NC4xNjcuOTEAUA8ji74A3SyS+clld0JzpgB/atexJRFw+ooydR1RSM0zPI/Z//rwmp35fxTRQtzCcRTzJc6yccSL/lQ599rlpe7VTM1Cu6fTXi7ksZpyw7V9KB2KKHWekbTmKl9L7EKfW24Le+cJk1Xh+8n3ROv9I7Se2f7kBvCLRPjCXWmN3KICzjzVRtn2iZruGsnBxyEU5rCFQv0J1XUmHYxtbOSW5gfUvASBf69G8ZX/aFiRm8lPb4IfM/dp0R84edPNBcY4gES2fYoqueoV0nG2uGsSclLekuGcWGhB8qoQ9YgPAQwJdJ0Bn3CD51hPHdcVrPoMyilt2TW9okygNxKSaK05Bbk="
+  ""
 );
 const targetChannelId = -1002232016830; // Replace with your target channel/group ID
 const purchaseAmount = 0.08;
@@ -39,7 +39,7 @@ const interval = 1000; // Interval between checks in milliseconds (e.g., 5 secon
 const solanaAddressRegex = /[A-HJ-NP-Za-km-z1-9]{32,44}/g;
 const keypair = Keypair.fromSecretKey(
   bs58.default.decode(
-    "2mfLmkXFM9xb2qGz5Mkt6YwvTPZaaY5rFNqfL8RdoFigXec9y8KVShkdCMbNgHkWQZ9Bnuifuxx2njcsEt81ECcR"
+    ""
   )
 );
 const connection = new Connection("https://api.mainnet-beta.solana.com");
